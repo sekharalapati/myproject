@@ -1,0 +1,96 @@
+.peragraph {
+    color: brown;
+  }
+  
+  .Navbar {
+    display: flex;
+    background-color: #ffffff;
+  }
+  
+  .NavList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .NavList li {
+    float: left;
+    padding: 15px;
+  }
+  
+  .NavList li a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+  }
+  
+  .NavList li a:hover {
+    text-decoration: none;
+  }
+  
+  .logo {
+    width: 30%;
+    margin-right: 5%;
+  }
+  
+  .logo img {
+    width: 230px;
+  }
+  
+  .NavBarList {
+    width: 85%;
+  }
+  .main-dive-rca{
+    width: 100%;
+    
+  }
+  .RCA{
+    display: flex;
+  }
+  .RCA-img1{
+    width: 25%;
+    float: right;
+    
+  }
+  .RCA-img1 img{
+    border-radius: 20px;
+    width: 230px;
+  }
+  .RCA-Content{
+    width: 74%;
+    float: right;
+  }
+  #fitch-img{
+    width: 500px;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-button {
+    color: #000000;
+    font-size: 20px;
+    padding: 3px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .dropdown-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
